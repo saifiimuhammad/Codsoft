@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Landing Page</title>
+
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Syncopate:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- ========== Header Section ========== -->
+    <header id="header" class="header">
+        <nav id="nav" class="nav container">
+            <div class="nav-title">
+                <img src="./img/logo.svg" alt="Nike Logo" class="nav-title-logo">
+            </div>
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link">Men</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Women</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Popular</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Trend</a></li>
+                    <i class="ri-close-fill menu-close icon"></i>
+                </ul>
+            </div>
+            <i class="ri-microsoft-fill menu-toggle icon"></i>
+        </nav>
+    </header>
+
+    <!-- ========== Main Section ========== -->
+    <main class="main">
+        <section class="home">
+            <div class="home-container container">
+                <div class="home-content">
+                    <h2 class="home-subtitle">NIKE</h2>
+                    <h1 class="home-title">
+                        LUPINEK <br>
+                        FLYKNIT <br>
+                        ACG
+                    </h1>
+                    <p class="home-description">
+                        Designed to withstand the rigors of adverse conditions, the Nike ACC Fyknit Lupinek combines
+                        flyknit, Flywire and a water-resistant Defender Repellent system in the upper.
+                    </p>
+
+                    <a href="#" class="home-button">BUY NOW</a>
+                </div>
+                <div class="home-images">
+                    <div class="home-circle"></div>
+                    <div class="home-swiper swiper">
+                        <div class="swiper-wrapper">
+                            <article class="home-article swiper-slide">
+                                <img src="./img/shoe-1.png" alt="shoe" class="home-shoe">
+                            </article>
+                            <article class="home-article swiper-slide">
+                                <img src="./img/shoe-2.png" alt="shoe" class="home-shoe">
+                            </article>
+                            <article class="home-article swiper-slide">
+                                <img src="./img/shoe-3.png" alt="shoe" class="home-shoe">
+                            </article>
+                        </div>
+
+                        <!-- pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="home-socials">
+                    <a href="https://www.facebook.com/" target="_blank" class="home-social-link">
+                        <i class="ri-facebook-circle-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="home-social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank" class="home-social-link">
+                        <i class="ri-youtube-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
